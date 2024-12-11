@@ -1,0 +1,90 @@
+.bar1 {
+  position: fixed; /* Fix the image relative to the viewport */
+  top: 80px; /* Starts 80px from the top, adjust as needed for navbar space */
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Offset the image by 50% of its width to center it */
+  width: 100%; /* Make the image take up the full width of the viewport */
+  height: 50%; /* Set the image height to 50% of the viewport height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  z-index: 0; /* Ensure it stays behind the navbar if needed */  
+  justify-content: center;
+  text-align: center;
+}
+
+.lastfooter{
+  width: 700px;
+  background-color: darkblue;
+  color: white;
+  display: block;
+}
+
+.restvid{
+  position: flex; 
+  width: 100%; 
+  height: 10%;
+  z-index: 0;
+}
+.navbar-nav .nav-link {
+  font-size: 18px; 
+  font-weight: bold; 
+}
+.card-img-top{
+  height: 550px;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0%; 
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.stephate{
+  position: flex;
+}
+.bigdiv{
+  float: right;
+  width: 10px;
+  text-align: center;
+  height: 400px;
+}
+.sng{
+  text-align: center;
+  font-size: 30px;
+}
+.smalldiv{
+  float: left;
+  width: 10px;
+  height: 400px;
+}
+.oi{
+  background-color: cyan;
+  align-content: center  ;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+.yns{
+  background-color: beige;
+}
+
+
+
+#carouselExampleIndicators {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto; 
+}
+.sng1{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+#carouselExampleControlsNoTouching{
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto; 
+}
