@@ -3,9 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Restaurant Reservation Page">
+    <title>Reservation</title>
+    
+    <!-- Bootstrap CSS (from CDN) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f1f8ff;  /* Light blue background for the body */
+            padding-top: 30px;
+            color: #333;  /* Dark text color for readability */
+        }
+
+        .reservation-form {
+            background-color: #fff;  /* White background for the form */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-control {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .btn-primary {
+            background-color: #007bff;  /* Primary blue button color */
+            border-color: #007bff;  /* Button border color */
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;  /* Darker blue when hovered */
+            border-color: #004085;
+        }
+
+        header {
+            background-color: #343a40;  /* Dark header background */
+            color: #fff;  /* White text in header */
+            padding: 20px 0;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #ff7f50;  /* Coral color for titles */
+        }
+
+        .form-group label {
+            color: #007bff;  /* Blue label color */
+        }
+    </style>
 </head>
 <body>
-    
+
+    <!-- Container for the Reservation Form -->
+    <div class="container">
+        <header class="text-center mb-5">
+            <h1 class="display-4">Book a Reservation At Stephate</h1>
+            <p class="lead">Reserve your spot at Stephate!</p>
+        </header>
+
+        <!-- Reservation Form Section -->
+        <section class="reservation-form">
+            <h2 class="h3 mb-4">Reservation Form</h2>
+            <form action="submit_form.html" method="POST">
+                <div class="form-row">
+                    <!-- Name Input -->
+                    <div class="form-group col-md-6">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+
+                    <!-- Email Input -->
+                    <div class="form-group col-md-6">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <!-- Phone Number Input -->
+                    <div class="form-group col-md-6">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+
+                    <!-- Number of Guests -->
+                    <div class="form-group col-md-6">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" class="form-control" id="guests" name="guests" min="1" max="20" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <!-- Reservation Date -->
+                    <div class="form-group col-md-6">
+                        <label for="date">Reservation Date</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+                    </div>
+
+                    <!-- Reservation Time -->
+                    <div class="form-group col-md-6">
+                        <label for="time">Reservation Time</label>
+                        <input type="time" class="form-control" id="time" name="time" required>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block">Book Reservation</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

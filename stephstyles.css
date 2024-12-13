@@ -88,3 +88,31 @@
   max-width: 900px;
   margin: 0 auto; 
 }
+.mealsdiv{
+  background-color: aqua;
+}
+.fooddiv{
+  border-radius: 1rem;
+  margin: 20px;
+  text-align: center;
+  background-color: dimgray;
+  color: white;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  border: 0.2px beige solid;
+}
+/* Apply the fooddiv1 class to change the size of the image */
+.fooddiv1 {
+  width: 1920px;      /* Set the width to 1920px */
+  height: 1277px;     /* Set the height to 1277px */
+  object-fit: cover;  /* Ensures the image fills the box and is cropped appropriately */
+}
+/* Apply the fooddiv2 class to set all images to the same size */
+.fooddiv2 {
+  width: 1920px;      /* Fixed width of 1920px */
+  height: 1277px;     /* Fixed height of 1277px */
+  object-fit: cover;  /* Crop image if necessary to fit the box */
+}
+
+
