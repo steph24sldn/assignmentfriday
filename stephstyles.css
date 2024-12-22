@@ -11,96 +11,124 @@
   text-align: center;
 }
 
-.lastfooter{
-  width: 700px;
-  background-color: darkblue;
-  color: white;
-  display: block;
+/* Styles for the footer section */
+.lastfooter {
+  width: 700px; /* Set the width of the footer */
+  background-color: darkblue; /* Set the background color to dark blue */
+  color: white; /* Set the text color to white */
+  display: block; /* Ensure the footer is displayed as a block element */
 }
 
+/* Styles for the restaurant video section */
 .restvid{
-  position: flex; 
-  width: 100%; 
-  height: 10%;
-  z-index: 0;
+  position: flex; /* Use flex positioning */
+  width: 100%; /* Set the width to 100% */
+  height: 10%; /* Set the height to 10% */
+  z-index: 0; /* Ensure it stays behind other elements if needed */
 }
+
+/* Styles for the navigation links */
 .navbar-nav .nav-link {
-  font-size: 18px; 
-  font-weight: bold; 
-}
-.card-img-top{
-  height: 550px;
+  font-size: 18px; /* Set the font size to 18px */
+  font-weight: bold; /* Make the font bold */
 }
 
+/* Styles for the top image in the card */
+.card-img-top {
+  height: 550px; /* Set the height to 550px */
+}
+
+/* Styles for the Space Mono regular font */
 .space-mono-regular {
-  font-family: "Space Mono", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 0%; 
-  padding-top: 20px;
-  text-align: center;
-  justify-content: center;
+  font-family: "Space Mono", serif; /* Use Space Mono font with serif fallback */
+  font-weight: 400; /* Set font weight to 400 (normal) */
+  font-style: normal; /* Set font style to normal */
+  margin-top: 0%; /* No top margin */
+  padding-top: 20px; /* Add 20px padding to the top */
+  text-align: center; /* Center align the text */
+  justify-content: center; /* Center justify the content */
 }
-.stephate{
-  position: flex;
+
+/* Styles for the stephate class */
+.stephate {
+  position: flex; /* Use flex positioning */
 }
-.bigdiv{
-  float: right;
-  width: 10px;
-  text-align: center;
-  height: 400px;
+
+/* Styles for the bigdiv class */
+.bigdiv {
+  float: right; /* Float the element to the right */
+  width: 10px; /* Set the width to 10px */
+  text-align: center; /* Center align the text */
+  height: 400px; /* Set the height to 400px */
 }
-.sng{
-  text-align: center;
-  font-size: 30px;
+
+/* Styles for the sng class */
+.sng {
+  text-align: center; /* Center align the text */
+  font-size: 30px; /* Set the font size to 30px */
 }
-.smalldiv{
-  float: left;
-  width: 10px;
-  height: 400px;
+
+/* Styles for the smalldiv class */
+.smalldiv {
+  float: left; /* Float the element to the left */
+  width: 10px; /* Set the width to 10px */
+  height: 400px; /* Set the height to 400px */
 }
-.oi{
-  background-color: cyan;
-  align-content: center  ;
-  width: 100%;
-  height: 100px;
-  color: white;
+
+/* Styles for the oi class */
+.oi {
+  background-color: cyan; /* Set the background color to cyan */
+  align-content: center; /* Center align the content */
+  width: 100%; /* Set the width to 100% */
+  height: 100px; /* Set the height to 100px */
+  color: white; /* Set the text color to white */
 }
-.yns{
-  background-color: beige;
+
+/* Styles for the yns class */
+.yns {
+  background-color: beige; /* Set the background color to beige */
 }
 
 
 
+/* Styles for the carousel indicators */
 #carouselExampleIndicators {
-  width: 80%;
-  max-width: 900px;
-  margin: 0 auto; 
+  width: 80%; /* Set the width to 80% */
+  max-width: 900px; /* Set the maximum width to 900px */
+  margin: 0 auto; /* Center the carousel */
 }
-.sng1{
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 20px;
-  text-align: center;
+
+/* Styles for the sng1 class */
+.sng1 {
+  margin-left: 100px; /* Add 100px left margin */
+  margin-right: 100px; /* Add 100px right margin */
+  font-size: 20px; /* Set the font size to 20px */
+  text-align: center; /* Center align the text */
 }
-#carouselExampleControlsNoTouching{
-  width: 80%;
-  max-width: 900px;
-  margin: 0 auto; 
+
+/* Styles for the carousel controls */
+#carouselExampleControlsNoTouching {
+  width: 80%; /* Set the width to 80% */
+  max-width: 900px; /* Set the maximum width to 900px */
+  margin: 0 auto; /* Center the carousel */
 }
-.mealsdiv{
-  background-color: aqua;
+
+/* Styles for the mealsdiv class */
+.mealsdiv {
+  background-color: aqua; /* Set the background color to aqua */
 }
-.fooddiv{
-  border-radius: 1rem;
-  margin: 20px;
-  text-align: center;
-  background-color: dimgray;
-  color: white;
-  justify-content: center;
-  vertical-align: middle;
-  padding-top: 10px;
-  border: 0.2px beige solid;
+
+/* Styles for the fooddiv class */
+.fooddiv {
+  border-radius: 1rem; /* Set the border radius to 1rem */
+  margin: 20px; /* Add 20px margin */
+  text-align: center; /* Center align the text */
+  background-color: dimgray; /* Set the background color to dim gray */
+  color: white; /* Set the text color to white */
+  justify-content: center; /* Center justify the content */
+  vertical-align: middle; /* Align content vertically to the middle */
+  padding-top: 10px; /* Add 10px padding to the top */
+  border: 0.2px beige solid; /* Set a solid beige border with 0.2px width */
 }
 /* Apply the fooddiv1 class to change the size of the image */
 .fooddiv1 {
@@ -113,6 +141,59 @@
   width: 1920px;      /* Fixed width of 1920px */
   height: 1277px;     /* Fixed height of 1277px */
   object-fit: cover;  /* Crop image if necessary to fit the box */
+}
+
+
+
+
+
+
+
+
+.flip-card {
+  perspective: 1000px; /* Enables the 3D flip effect */
+  cursor: pointer; /* Makes it clickable */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; /* Ensures both sides are visible in 3D space */
+}
+
+/* On hover or focus, the card flips */
+.flip-card:focus .flip-card-inner,
+.flip-card:active .flip-card-inner {
+  transform: rotateY(180deg); /* Triggers the flip on click */
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hides the back side when not visible */
+}
+
+.flip-card-front {
+  background-color: #f8f9fa;
+}
+
+.flip-card-back {
+  background-color: #f0f0f0;
+  transform: rotateY(180deg); /* Positions the back side correctly */
+}
+
+.img-thumbnail {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
 }
 
 

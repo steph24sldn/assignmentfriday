@@ -1,157 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knightsbridge</title>
+
+    <!-- Metadata for search engine optimization and author details -->
     <meta name="description" content="STEPHATE">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Stephan">
+
+    <!-- Linking external stylesheets -->
     <link rel="stylesheet" href="../css/stephstyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Preconnecting to Google Fonts for faster loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body class="yns">
+    <!-- Large header image -->
     <img src="../images/scratch-orange-top.png" style="width: 100%;" alt="">
-<br><br>
+
+    <br><br>
+
+    <!-- Navbar section -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="greenwich">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../real_assignment/index.html">
-            <img src="../images/Jolistedo.jpg"  alt="Brand Logo" style="height: 60px;"> 
-          </a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./mealspage.html">Menus</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Book a Party</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/contacts.html">Contact us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Locations
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../index.html">North Greenwich</a></li>
-                  <li><a class="dropdown-item" href="./bond street.html">Bond Street</a></li>
-                  <li><a class="dropdown-item" href="./knightsbridge.html">Knightsbridge</a></li>
+            <a class="navbar-brand" href="../real_assignment/index.html">
+                <!-- Brand logo -->
+                <img src="../images/stephate.jpg" alt="Brand Logo" style="height: 60px;"> 
+            </a> 
+            <!-- Navbar toggle button for mobile views -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links section -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./mealspage.html">Menus</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./bookaparty.html">Book a Party</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/contacts.html">Contact us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Locations
+                        </a>
+                        <!-- Dropdown menu for locations -->
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../index.html">North Greenwich</a></li>
+                            <li><a class="dropdown-item" href="./bond street.html">Bond Street</a></li>
+                            <li><a class="dropdown-item" href="./knightsbridge.html">Knightsbridge</a></li>
+                        </ul>
+                    </li>
+                    <li style="width: 30px;">
+                    </li>
                 </ul>
-              </li>
-              <li style="width: 30px;">
-
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-
-      <div>
+    <!-- Video background -->
+    <div>
         <video class="restvid" src="../videos/knightsbridge vid.mp4" autoplay loop muted></video>
     </div> 
 
+    <!-- Title of the page -->
     <h1 class="space-mono-regular">WELCOME TO STEPHATE</h1><br><hr> <br><br>
-  <div class="sng">
-    <img class="bigdiv" src="../images/scratch-orange-top2.png" alt="">
-    <img class="smalldiv" src="../images/scratch-orange-top2.png" alt="">
-    <p>STEPHATE KNIGHTSBRIDGE</p> 
-    <p class="sng1 container col-md-3 col-sm-6 col-lg-11">With its vibrant atmosphere and first-class hospitality, it’s no wonder that Stephate North Greenwich, Bond Street, and Knightsbridge are some of Central London’s most popular destinations for lunch or dinner, especially when celebrating a special occasion.
-      As you’re led to the lounge area, your host will guide you through your visit. In the lounge, visitors are ‘wowed’ by the vast high-definition video installation, which tells the Stephate story, paying homage to the brand’s origins and whetting guests’ appetites for the experience that awaits. Enjoy a handcrafted cocktail, a glass of fine wine, or a refreshing non-alcoholic beverage while you relax.
-      Stephate North Greenwich, Bond Street, and Knightsbridge each feature two main dining areas: the ground floor with 11 teppanyaki tables and the lower ground floor with 8. Each table seats 8 guests. These tables are arranged to offer both intimacy and a sense of community, allowing diners to enjoy the theatrical cooking displays by highly skilled chefs while still maintaining a degree of privacy. We also have two private dining rooms available, providing the ultimate Stephate experience.</p>
-    <br><br><br><br><br><br><br><br>
-  </div>
 
-  
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="../images/02.jpg" class="card-img-top img-fluid" alt="..." style="height: 216px;">
-          <div class="card-body">
-            <h5 class="card-title">North Greenwich</h5>
-            <p class="card-text">Here is our North Greenwich branch</p>
-            <a href="../index.html" class="btn btn-primary">North Greenwich</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="../images/bond street.jpg" class="card-img-top img-fluid" alt="..." style="height: 216px;">
-          <div class="card-body">
-            <h5 class="card-title">Bond Street</h5>
-            <p class="card-text">Here is the Bond Street page</p>
-            <a href="./bond street.html" class="btn btn-primary">Click here to go Bond Street</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="../images/knightsbridge.jpg" class="card-img-top img-fluid" alt="..." style="height: 216px;">
-          <div class="card-body">
-            <h5 class="card-title">Knightsbridge</h5>
-            <p class="card-text">Here is the Knightsbridge</p>
-            <a href="./knightsbridge.html" class="btn btn-primary">Knightsbridge</a>
-          </div>
-        </div>
-      </div>
+    <!-- Section describing the Stephate Knightsbridge location -->
+    <div class="sng">
+        <img class="bigdiv" src="../images/scratch-orange-top2.png" alt="">
+        <img class="smalldiv" src="../images/scratch-orange-top2.png" alt="">
+        <p>STEPHATE KNIGHTSBRIDGE</p> 
+        <p class="sng1 container col-md-3 col-sm-6 col-lg-11">
+            With its vibrant atmosphere and first-class hospitality, it’s no wonder that Stephate North Greenwich, Bond Street, and Knightsbridge are some of Central London’s most popular destinations for lunch or dinner, especially when celebrating a special occasion.
+            As you’re led to the lounge area, your host will guide you through your visit. In the lounge, visitors are ‘wowed’ by the vast high-definition video installation, which tells the Stephate story, paying homage to the brand’s origins and whetting guests’ appetites for the experience that awaits. Enjoy a handcrafted cocktail, a glass of fine wine, or a refreshing non-alcoholic beverage while you relax.
+            Stephate North Greenwich, Bond Street, and Knightsbridge each feature two main dining areas: the ground floor with 11 teppanyaki tables and the lower ground floor with 8. Each table seats 8 guests. These tables are arranged to offer both intimacy and a sense of community, allowing diners to enjoy the theatrical cooking displays by highly skilled chefs while still maintaining a degree of privacy. We also have two private dining rooms available, providing the ultimate Stephate experience.
+        </p>
+        <br><br><br><br><br><br><br><br>
     </div>
-  </div>
-  
-  
 
+    <!-- Card layout for different locations of Stephate -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- North Greenwich Card -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/02.jpg" class="card-img-top img-fluid" alt="..." style="height: 216px;">
+                    <div class="card-body">
+                        <h5 class="card-title">North Greenwich</h5>
+                        <p class="card-text">Here is our North Greenwich branch</p>
+                        <a href="../index.html" class="btn btn-primary">North Greenwich</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Bond Street Card -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/bond street.jpg" class="card-img-top img-fluid" alt="..." style="height: 216px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bond Street</h5>
+                        <p class="card-text">Here is the Bond Street page</p>
+                        <a href="./bond street.html" class="btn btn-primary">Click here to go Bond Street</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Knightsbridge Card -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/knightsbridge.jpg" class="card-img-top img-fluid" alt="..." style="height: 216px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Knightsbridge</h5>
+                        <p class="card-text">Here is the Knightsbridge</p>
+                        <a href="./knightsbridge.html" class="btn btn-primary">Knightsbridge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Map iframe displaying the location -->
     <br><br><br>
     <iframe src="https://www.google.com/maps/d/embed?mid=151uHtqMlc7TigNlGCw2EhGqM3RrzwWs&ehbc=2E312F" style="width: 100%;"  height="700px"></iframe>
-  
-
     <br><br><br><br><br><br>
 
+    <!-- Another set of images -->
     <img class="bigdiv" src="images/scratch-orange-top2.png" alt="">
     <img class="smalldiv" src="images/scratch-orange-top2.png" alt="">
     <h1 class="sng1 container col-md-3 col-sm-6 col-lg-11">TAKE A LOOK AT OUR PICTURE/GALERY</h1>
     <br><br><br><br>
 
+    <!-- Image carousel -->
     <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../images/lobster2.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-item">
-          <img src="../images/shushi 12.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/lobster2.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/shushi 12.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/mussles.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <div class="carousel-item">
-          <img src="../images/mussles.jpg" style="height: 500px;" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-   
-
+    
+    <!-- Footer section with copyright -->
     <footer class="bg-dark text-white pt- pb-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
@@ -251,6 +277,7 @@
 
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Bootstrap and JS dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0rF1eMScFhf5lT/OMr0ypVuESrlebuV6lP1f5apJBoFcGv0Y" crossorigin="anonymous"></script>
 </body>
 </html>
