@@ -196,4 +196,29 @@
   padding: 1rem;
 }
 
+.thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f8ff;
+  margin: 0;
+}
+
+.thank-you-message {
+  text-align: center;
+}
+
+.thank-you-message h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.thank-you-message p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+
 
