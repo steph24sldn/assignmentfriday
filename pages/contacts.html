@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
  <!-- Meta tags for character encoding and viewport settings -->
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with STEPHATE for reservations, inquiries, and more. Our team is here to provide you with exceptional service and ensure your dining experience is unforgettable.">
+    <meta name="keywords" content="STEPHATE, contact us, reservations, inquiries, customer service, Central London, restaurant">
+    <meta name="author" content="Stephan">
+
+ <!--Title-->
  <title>Contact Us</title>
+
  
  <!-- External CSS for custom styles -->
  <link rel="stylesheet" href="../css/stephstyles.css">
@@ -17,10 +23,12 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="yns">
+  <div class="container">
+
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="greenwich">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="greenwich">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img src="../images/stephate.jpg"  alt="Brand Logo" style="height: 60px;"> 
@@ -63,36 +71,108 @@
         </div>
       </nav>
 
-    <h1>Contact us about anything you might need</h1>
-    <form action="./thankyoucontact.html" method="get">
-        <label for="first-name">First Name:</label><br>
-        <input type="text" id="first-name" name="first-name" required><br><br>
+    <!-- Styled heading -->
+    <h1 class="space-mono-regular text-center mb-5">Contact us about anything you might need</h1>
+    
+    <!-- Styled form -->
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <form action="./thankyoucontact.html" method="get" class="p-4 bg-light rounded shadow">
+                <div class="mb-3">
+                    <label for="first-name" class="form-label">First Name:</label>
+                    <input type="text" class="form-control" id="first-name" name="first-name" required>
+                </div>
 
-        <label for="last-name">Last Name:</label><br>
-        <input type="text" id="last-name" name="last-name" required><br><br>
+                <div class="mb-3">
+                    <label for="last-name" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control" id="last-name" name="last-name" required>
+                </div>
 
-        <label for="date">Date:</label><br>
-        <input type="date" id="date" name="date" required><br><br>
+                <div class="mb-3">
+                    <label for="date" class="form-label">Date:</label>
+                    <input type="date" class="form-control" id="date" name="date" required>
+                </div>
 
-        <label for="gender">Gender:</label><br>
-        <select id="gender" name="gender" required>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select><br><br>
+                <div class="mb-3">
+                    <label for="gender" class="form-label">Gender:</label>
+                    <select class="form-select" id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
 
-        <label for="event">Select what branch you are regarding:</label><br>
-        <select id="event" name="event" required>
-            <option value="soccer">North greenwich</option>
-            <option value="basketball">Bond Street</option>
-            <option value="tennis">Knightsbridge</option>
-        </select><br><br>
+                <div class="mb-3">
+                    <label for="event" class="form-label">Select what branch you are regarding:</label>
+                    <select class="form-select" id="event" name="event" required>
+                        <option value="northgreenwich">North Greenwich</option>
+                        <option value="bondstreet">Bond Street</option>
+                        <option value="knightsbridge">Knightsbridge</option>
+                    </select>
+                </div>
 
-        <label for="comments">Comments you may want to add:</label><br>
-        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Comments you may want to add:</label>
+                    <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+                </div>
 
-        <input type="submit" value="Submit">
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 
-    </form>
+<br>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white pt-4 pb-4">
+      <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Stephate</h5>
+                  <p>Stephate: Savor the Flavor, Taste the Tradition!</p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Menu</h5>
+                  <p><a href="../index.html" class="text-white" style="text-decoration: none;">North Greenwich</a></p>
+                  <p><a href="./bondstreet.html" class="text-white" style="text-decoration: none;">Bond Street</a></p>
+                  <p><a href="./knightsbridge.html" class="text-white" style="text-decoration: none;">Knightsbridge</a></p>
+              </div>
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
+                  <p><a href="./mealspage.html" class="text-white" style="text-decoration: none;">Menus</a></p>
+                  <p><a href="./bookaparty.html" class="text-white" style="text-decoration: none;">Book A Party</a></p>
+                  <p><a href="./contacts.html" class="text-white" style="text-decoration: none;">Make an inquiry</a></p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact us</h5>
+                  <p><i class="fas fa-home mr-3"></i> London, Greenwich Borough</p>
+                  <p><i class="fas fa-envelope mr-3"></i>19230745@students.ncclondon.ac.uk</p>
+                  <p><i class="fas fa-phone mr-3"></i>19230745</p>
+                  <p><i class="fas fa-print mr-3"></i>19230745 (easter egg)</p>
+              </div>
+          </div>
+          <hr class="mb-4">
+
+          <div class="row align-items-center">
+              <div class="col-md-7 col-lg-8">
+                  <p>© Copyright 2024 All rights reserved by: Stephan <a href="https://uk.linkedin.com/" style="text-decoration: none;"><strong class="text-warning">LinkedIn</strong></a></p>
+              </div>
+              <div class="col-md-5 col-lg-4">
+                  <div class="text-center text-md-right">
+                      <ul class="list-unstyled list-inline">
+                          <li class="list-inline-item"><a href="https://www.facebook.com/login/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a></li>
+                          <li class="list-inline-item"><a href="https://x.com/i/flow/login" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="https://www.whatsapp.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-whatsapp"></i></a></li>
+                          <li class="list-inline-item"><a href="https://support.google.com/answer/2451065?hl=en" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a></li>
+                          <li class="list-inline-item"><a href="https://www.instagram.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -210,9 +210,9 @@
 }
 
 .thank-you-message h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #007bff;
+  font-size: 3rem; /* Set the font size to 3rem */
+  font-weight: bold; /* Make the font bold */
+  color: #007bff; /* Set the text color to a blue shade */
 }
 
 .thank-you-message p {
